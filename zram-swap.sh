@@ -14,7 +14,7 @@ export PATH=/usr/sbin:/usr/bin:/sbin:/bin
 
 # set sane defaults, see /etc/default/zram-swap for explanations
 _zram_fraction="1/2"
-_zram_algorithm="lz4"
+_zram_algorithm="lzo-rle"
 _comp_factor=''
 _zram_fixedsize=''
 _zram_swap_debug=''
