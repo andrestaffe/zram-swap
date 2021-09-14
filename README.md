@@ -3,29 +3,6 @@ A simple zram swap script for modern systemd Linux
 
 https://github.com/foundObjects/zram-swap
 
-### Why?
-
-I wrote zram-swap because I couldn't find a simple modern replacement for the Ubuntu
-`zram-config` package that included basic error handling, didn't make device sizing
-mistakes and kept user-facing configuration straightforward and easy to understand.
-
-### Installation and Usage
-
-*Arch Linux:*
-
-Install from the AUR: `paru -S zram-swap-git`
-
-or directly from GitHub:
-
-```sh
-mkdir zram-swap-git && cd zram-swap-git
-wget https://raw.githubusercontent.com/foundObjects/zram-swap/arch-packaging/PKGBUILD
-makepkg -Cci
-```
-
-You'll need to start and enable `zram-swap.service` after installation on Arch.
-Make any configuration changes to `/etc/default/zram-swap` first if desired, see below for details.
-
 *Others:*
 
 ```sh
