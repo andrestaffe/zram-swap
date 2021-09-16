@@ -6,7 +6,7 @@ https://github.com/foundObjects/zram-swap
 *Others:*
 
 ```sh
-git clone https://github.com/foundObjects/zram-swap.git
+git clone https://github.com/andrestaffe/zram-swap.git
 cd zram-swap && sudo ./install.sh
 ```
 
